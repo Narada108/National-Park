@@ -1,0 +1,156 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    background-color: #40df77;
+}
+
+.photo {
+    text-align: center;
+    padding: 10px;
+}
+
+.forest {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow:0px 0px 25px 25px hwb(0deg 0% 100%);
+}
+
+.header {
+    text-align: center;
+    text-shadow:0px 0px 17px #f7840e;
+    font-size: 20px;
+}
+
+.nav {
+    max-width: 400px;
+    min-width: 150px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: #0abe49;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.unorderedList {
+    padding-left: 0;
+}
+
+.listItem {
+    margin: 10px auto;
+    list-style: none;
+}
+
+.link {
+    color: white;
+    background-color: #096e2c;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.link:focus {
+    outline: 2px solid currentColor;
+}
+
+.link:hover {
+    color: rgb(137, 212, 143);
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.link:active {
+    color: brown;
+}
+
+.button {
+    background-color: #62d0f1;
+    border: 1px solid black;
+    padding: 7px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Lato', sans-serif;
+}
+
+.blue {
+    background-color: #62d0f1;
+}
+
+.green {
+    background-color: #40df77;
+}
+
+.photo1 {
+    width: 160px;   
+}
+
+.photo2 {
+    width: 100px;   
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tableCell {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.caption {
+    caption-side: bottom;
+    text-align: right;
+    margin: 10px;
+}
+
+.tableHeader {
+    background-color: #096e2c;
+    color: rgb(255, 255, 255);
+    font-weight: normal;
+}
+
+.tableRow:hover {
+    background-color:rgb(61 212 61) ;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.goTop {
+    color: rgb(255, 255, 255);
+    background-color: #079137;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+.goTopTable {
+    margin-top: 25px;
+}
+
+
