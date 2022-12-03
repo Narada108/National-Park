@@ -1,13 +1,18 @@
-let button = document.querySelector(".button")
-let body = document.querySelector(".body")
-let themeName = document.querySelector(".themeName")
-
-button.addEventListener("click", () => {
-    body.classList.toggle("blue")
-    button.classList.toggle("green")
-    if (body.classList.contains("blue")) {
-        themeName.innerText = "zielone";
-    } else {
-        themeName.innerText = "niebieskie"
+{
+    const toggleBackground = () => {
+        let body = document.querySelector(".body");
+        let button = document.querySelector(".button")
+        let themeName = document.querySelector(".themeName");
+        body.classList.toggle("blue");
+        button.classList.toggle("green");
+        themeName.innerText = body.classList.contains("blue") ? "zielone" : "niebieskie";
     }
-})
+    
+    const init = () => {
+        let button = document.querySelector(".button")
+        button.addEventListener("click", toggleBackground);
+    }
+
+    init();
+}
+
