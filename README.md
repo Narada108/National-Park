@@ -1,6 +1,6 @@
-# Parki Narodowe w Polsce
+# National Parks in Poland
 ![forest](images/forest.jpg)
-## Opis
-Przedstawiłem tu moje 4 ulubione parki
-## Strona internetowa
+## Description
+There are my 4 favorite parks
+## Website
 https://narada108.github.io/National-Park/
